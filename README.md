@@ -1,6 +1,6 @@
 # InternetStore-Flexbox
 
-## This is internet-store for desktop version which made on flexbox
+## This is internet-store for desktop which made on flexbox
 
 ## Clone the project:
 
