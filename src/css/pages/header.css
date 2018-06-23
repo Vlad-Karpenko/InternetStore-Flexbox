@@ -152,3 +152,18 @@ header .fa-search {
     right: 10px;
     color: #8d8d8d;
 }
+
+/*Header for main*/
+header h2{
+    font-family: Roboto-regular;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+header .logout a.login{
+    background-color: #8bc34a;
+    margin: 0 10px;
+}
+header .col-md-8 .row{
+    justify-content: space-around;
+}
