@@ -96,6 +96,9 @@
     font-size: 15px;
     font-family: Roboto-medium;
 }
+.all_new_item .price-range button[type=submit]:hover{
+    cursor: pointer;
+}
 
 .all_new_item .categories {
     margin-top: 0;
@@ -167,14 +170,12 @@
 .all_new_item .circle {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    overflow: hidden;
-
 }
 
 .all_new_item .circle img {
     width: 30px;
     height: 30px;
+    border-radius: 50%;
 }
 
 .all_new_item .wrap_circle {
@@ -283,7 +284,9 @@
 .all_new_item .img-product {
     width: 100%;
     height: 180px;
-
+}
+.all_new_item .img-product img{
+    width: 100%;
 }
 
 .all_new_item .img-product + div {
@@ -300,6 +303,7 @@
 
 .all_new_item .item:hover {
     box-shadow: 0 15px 10px #d4d4d4;
+    cursor: pointer;
 }
 
 .all_new_item .item .wrap_circle {

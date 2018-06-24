@@ -1,0 +1,342 @@
+.startPage nav {
+    padding: 70px 0;
+    background-color: #f4f6f5;
+}
+
+.startPage nav div h3 {
+    font-family: Roboto-medium;
+    font-size: 26px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.startPage nav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.startPage nav ul a {
+    text-decoration: none;
+    font-family: Roboto-medium;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.startPage nav ul a:hover {
+    background-color: #e74c3c;
+}
+
+.startPage.row {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.startPage .circle {
+    width: 30px;
+    height: 30px;
+
+}
+
+.startPage .circle img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.startPage .wrap_circle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px;
+}
+
+.startPage .wrap_circle .circle + span {
+    font-size: 14px;
+    color: #738690;
+    font-family: Roboto-regular;
+}
+
+.startPage .sellers_rect + div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.startPage .item .money span {
+    font-family: Roboto-bold;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.startPage .wrap_circle {
+    line-height: 30px;
+    border-bottom: 1px solid #d4d4d4;
+
+}
+
+.startPage .last {
+    border: none;
+}
+
+.startPage .wrap_circle .stars {
+    color: #ffa726;
+    font-size: 12px;
+    display: flex;
+}
+
+.startPage .wrap_circle .stars ul {
+    display: flex;
+}
+
+.startPage .wrap_circle p {
+    font-family: Roboto-medium;
+}
+
+.startPage .wrap_circle .stars span {
+    font-size: 12px;
+    color: #8d8d8d;
+    padding-left: 5px;
+}
+
+.startPage .view_all {
+    text-align: center;
+}
+
+.startPage .view_all a {
+    color: white;
+    width: 100%;
+    display: inline-block;
+    padding: 15px 0;
+    text-decoration: none;
+    background-color: #8bc34a;
+}
+
+.startPage .sort {
+    background-color: white;
+    padding: 20px;
+    color: #8d8d8d;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d4d4d4;
+}
+
+.startPage .sort:hover {
+    cursor: pointer;
+}
+
+.startPage .sort div {
+    font-size: 14px;
+    font-family: Roboto-regular;
+}
+
+.startPage .sort div i.active {
+    color: #8bc34a;
+}
+
+.startPage .sort i {
+    color: #707070;
+    padding: 0 10px;
+}
+
+.startPage .product {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.startPage .img-product {
+    width: 100%;
+    height: 180px;
+}
+
+.startPage .img-product img {
+    width: 100%;
+}
+
+.startPage .img-product + div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.startPage .item {
+    background-color: white;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 5px 7px #d4d4d4;
+    margin: 15px 0;
+    position: relative;
+}
+
+.startPage .item:hover {
+    box-shadow: 0 15px 10px #d4d4d4;
+    cursor: pointer;
+}
+
+.startPage .item .wrap_circle {
+    border: none;
+    padding: 20px;
+}
+
+.startPage .item .content_prod {
+    padding: 20px 20px 5px;
+    border-bottom: 1px solid #d4d4d4;
+    margin-top: 20px;
+}
+
+.startPage .item .content_prod > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.startPage .item .content_prod span {
+    font-family: Roboto-medium;
+    padding-bottom: 15px;
+}
+
+.startPage .item .content_prod span + span {
+    color: #8bc34a;
+    font-size: 14px;
+}
+
+.startPage .light {
+    position: absolute;
+    border: 20px solid transparent;
+    border-left: 20px solid #8bc34a;
+    border-top: 20px solid #8bc34a;
+}
+
+.startPage .item .light + i {
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-family: FontAwesome;
+}
+
+.startPage .trend {
+    margin: 100px 0;
+}
+
+.startPage .trend h2 {
+    font-family: Roboto-bold;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.startPage .whyChoose {
+    padding: 100px 0;
+    background-color: #263238;
+    text-align: center;
+}
+
+.startPage .whyChoose h3 {
+    font-family: Roboto-medium;
+    font-size: 32px;
+    color: white;
+}
+
+.startPage .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    justify-content: space-between;
+}
+
+.startPage .cause {
+    padding: 50px 0;
+}
+
+.startPage .cause .img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.startPage .cause img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.startPage .cause h4 {
+    margin: 20px 0;
+    font-family: Roboto-regular;
+    font-size: 20px;
+    color: white;
+}
+
+.startPage .cause p {
+    font-family: Roboto-regular;
+    font-size: 15px;
+    color: #a7b5bc;
+}
+
+.startPage .author {
+    background-color: #f4f6f5;
+    padding: 100px 0;
+}
+
+.startPage .author .greyWrap {
+    padding: 100px 200px;
+    background-color: #b5b5b5;
+    box-shadow: 0 0 15px 5px gray;
+}
+
+.startPage .author .greyWrap .becomeAuthor {
+    background-color: #8bc34a;
+    padding: 70px 60px;
+}
+
+.startPage .author .greyWrap .becomeAuthor span {
+    font-family: Roboto-regular;
+    font-size: 30px;
+    color: white;
+    line-height: 1.5;
+}
+
+.startPage .author .greyWrap .becomeAuthor a {
+    padding: 25px 40px;
+    font-family: Roboto-regular;
+    font-size: 18px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+    line-height: 5;
+}
+
+.startPage .freeTutorials {
+    padding: 100px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.startPage .freeTutorials h3 {
+    font-family: Roboto-medium;
+    font-size: 32px;
+}
+
+.startPage .freeTutorials .Item {
+    margin-top: 30px;
+    background-color: #f8f8f8;
+}
+
+.startPage .freeTutorials .Item .Item_img {
+    width: 100%;
+    min-height: 180px;
+}
+
+.startPage .freeTutorials .Item .Item_img img {
+    width: 100%;
+}
+
+.startPage .freeTutorials .Item .Item_img + div {
+    padding: 45px 55px;
+}
+
+.startPage .freeTutorials .Item .Item_img + div span {
+    font-family: Roboto-bold;
+    font-size: 20px;
+}
