@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Settings personal info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+<body>
+//= html-parts/header.html
+<main class="settings">
+    <div class="container">
+        <div class="breadcrumbs">
+            <span><a href="#">Home</a></span>
+            <span><a class="active" href="#"><span>-</span> Settings</a></span>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="personalInfo">
+                    <ul>
+                        <li class="active"><span class="fa fa-angle-right"></span><a href="#">Personal Information</a>
+                        </li>
+                        <li><span class="fa fa-angle-right"></span><a href="#">Profile</a></li>
+                        <li><span class="fa fa-angle-right"></span><a href="#">Badges</a></li>
+                        <li><span class="fa fa-angle-right"></span><a href="#">E-mail Settings</a></li>
+                        <li><span class="fa fa-angle-right"></span><a href="#">Social Network</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="personalInfoForm">
+                    <div class="titleForm">
+                        <span>Personal Information</span>
+                    </div>
+                    <form>
+                        <div class="field">
+                            <label>First Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>Last Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>Company Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>Country</label>
+                            <select>
+                                <option>Select Your Country</option>
+                                <option value="Ukraine">Ukraine</option>
+                                <option value="Poland">Poland</option>
+                                <option value="Holland">Holland</option>
+                                <option value="England">England</option>
+                                <option value="Germany">Germany</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label>Address Line 1</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>Address Line 2</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>City</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>State/ Province / Region</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>Zip / Postal Code</label>
+                            <input type="text">
+                        </div>
+                        <input type="submit" value="Update">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+//= html-parts/footer.html
+</body>
+</html>

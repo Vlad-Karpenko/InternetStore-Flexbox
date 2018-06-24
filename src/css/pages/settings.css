@@ -1,0 +1,123 @@
+.settings {
+    background-color: #f4f6f5;
+}
+
+.settings .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.settings a {
+    text-decoration: none;
+}
+
+.settings .breadcrumbs {
+    padding: 40px 0;
+}
+
+.settings .breadcrumbs a {
+    font-family: Roboto-regular;
+    font-size: 15px;
+    color: #b0bec5;
+}
+
+.settings .breadcrumbs a.active {
+    color: black;
+}
+
+.settings .breadcrumbs a.active span {
+    color: #8bc34a;
+}
+
+.settings .personalInfo {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #b0bec5;
+}
+
+.settings .personalInfo ul a {
+    font-family: Roboto-medium;
+    font-size: 14px;
+    color: #707070;
+}
+
+.settings .personalInfo ul li.active a {
+    color: black;
+
+}
+
+.settings .personalInfo ul li:not(:last-child) {
+    border-bottom: 1px solid #b0bec5;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.settings .personalInfo ul li.active {
+    border-bottom: 2px solid #8bc34a;
+}
+
+.settings .personalInfo ul span {
+    color: #707070;
+}
+
+.settings .personalInfo ul li.active span {
+    color: #8bc34a;
+}
+
+.settings .personalInfoForm {
+    padding: 20px 30px 70px;
+    background-color: white;
+    border: 1px solid #b0bec5;
+    margin-bottom: 150px;
+}
+
+.settings .personalInfoForm .titleForm {
+    border-bottom: 1px solid #b0bec5;
+    padding-bottom: 20px;
+}
+
+.settings .personalInfoForm .titleForm span {
+    font-family: Roboto-medium;
+    font-size: 24px;
+}
+
+.settings .personalInfoForm .field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.settings .personalInfoForm form {
+    margin-top: 40px;
+}
+
+.settings .personalInfoForm .field label {
+    line-height: 2;
+    font-family: Roboto-regular;
+    font-size: 15px;
+}
+
+.settings .personalInfoForm .field input, .settings .personalInfoForm .field select {
+    width: 540px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #b0bec5;
+    font-family: Roboto-regular;
+    font-size: 15px;
+    color: #878787;
+    outline: 0;
+}
+
+.settings .personalInfoForm form input[type=submit] {
+    padding: 15px 30px;
+    background-color: #8bc34a;
+    color: white;
+    font-family: Roboto-medium;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 20px;
+}
