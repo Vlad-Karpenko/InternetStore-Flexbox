@@ -1,0 +1,350 @@
+.profile_details {
+    background-color: #f4f6f5;
+}
+
+.profile_details .row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.profile_details .breadcrumbs {
+    padding: 40px 0;
+}
+
+.profile_details .container .breadcrumbs a {
+    text-decoration: none;
+    color: #b0bec5;
+}
+
+.profile_details .container .breadcrumbs span {
+    font-size: 15px;
+    font-family: Roboto-regular;
+}
+
+.profile_details .container .breadcrumbs span a.active {
+    color: #000;
+}
+
+.profile_details .profile_author {
+    background-color: white;
+    padding: 20px 30px;
+    border: 1px solid #d4d4d4;
+    margin-bottom: 25px;
+}
+
+.profile_details .profile_author .author_content {
+    display: flex;
+    padding: 40px 0;
+    margin: 0 -15px;
+}
+
+.profile_details .profile_author .author_content .status {
+    display: inline-block;
+}
+
+.profile_details .profile_author .author_content a:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #8bc34a;
+    margin-right: 5px;
+
+}
+
+.profile_details h4 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 20px;
+    font-family: Roboto-bold;
+}
+
+.profile_details .profile_author .img_author {
+    width: 70px;
+    height: 60px;
+
+}
+
+.profile_details .profile_author .img_author img {
+    width: 100%;
+}
+
+.profile_details .profile_author .author_content p {
+    margin-bottom: 22px;
+    font-size: 18px;
+    font-family: Roboto-regular;
+}
+
+.profile_details .profile_author .author_content a {
+    padding: 5px 10px;
+    border: 1px solid #d4d4d4;
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 13px;
+    font-family: Roboto-regular;
+
+}
+
+.profile_details .profile_author .badges ul {
+    justify-content: space-between;
+    display: flex;
+}
+
+.profile_details .profile_author .badges a {
+    display: inline-block;
+}
+
+.profile_details .social {
+    margin-bottom: 20px;
+}
+
+.profile_details .social li {
+    width: 35px;
+    height: 30px;
+}
+
+.profile_details .social li a {
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile_details .social .fb {
+    background-color: #6370b6;
+}
+
+.profile_details .social .tw {
+    background-color: #64b5f6;
+}
+
+.profile_details .social .in {
+    background-color: #4f71ce;
+}
+
+.profile_details .social .you {
+    background-color: #d32f2f;
+}
+
+.profile_details .social ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile_details .link {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile_details .link i {
+    margin-right: 7px;
+}
+
+.profile_details .link ul {
+    display: block;
+}
+
+.profile_details .link a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: Roboto-medium;
+
+}
+
+.profile_details .link .send_message {
+    background-color: #546e7a;
+}
+
+.profile_details .link .follow {
+    background-color: #8bc34a;
+}
+
+.profile_details .aboutMe {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #b0bec5;
+}
+
+.profile_details .aboutMe ul a {
+    font-family: Roboto-medium;
+    font-size: 14px;
+    color: #707070;
+    text-decoration: none;
+}
+
+.profile_details .aboutMe ul li.active a {
+    color: black;
+
+}
+
+.profile_details .aboutMe ul li:not(:last-child) {
+    border-bottom: 1px solid #b0bec5;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.profile_details .aboutMe ul li.active {
+    border-bottom: 2px solid #8bc34a;
+}
+
+.profile_details .aboutMe ul i {
+    color: #707070;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.profile_details .aboutMe ul li.active i {
+    color: #8bc34a;
+}
+
+.profile_details .col-md-9 .image {
+    border: 1px solid #dcdcdc;
+}
+
+.profile_details .col-md-9 .image img {
+    width: 100%;
+    max-height: 335px;
+}
+
+.profile_details .square {
+    border: 20px solid #fff;
+    width: 100%;
+}
+
+.profile_details .content-col-9 .info {
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    background-color: white;
+    margin: 30px 0;
+}
+
+.profile_details .content-col-9 .info > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile_details .content-col-9 .info > ul > li {
+    padding: 25px 0 15px;
+    width: 25%;
+}
+
+.profile_details .content-col-9 .info > ul > li:not(:last-child) {
+    border-right: 1px solid #dcdcdc;
+}
+
+.profile_details .content-col-9 .info span {
+    display: block;
+}
+
+.profile_details .content-col-9 .info li span {
+    font-family: Roboto-medium;
+    font-size: 15px;
+
+}
+
+.profile_details .content-col-9 .info span + span {
+    margin-top: 10px;
+    font-family: Roboto-regular;
+    color: #7c7c7c;
+}
+
+.profile_details .content-col-9 .info ul .stars ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.profile_details .content-col-9 .info ul .stars ul li i {
+    margin-left: 2px;
+    color: #ffbe60;
+
+}
+
+.profile_details .content-col-9 .info ul .stars ul li:last-child span {
+    font-size: 14px;
+    color: #7c7c7c;
+    line-height: 1.3;
+}
+
+.profile_details .content-col-9 .aboutMeContent {
+    background-color: white;
+    padding: 35px 40px;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 100px;
+}
+
+.profile_details .content-col-9 .aboutMeContent h4 {
+    font-family: Roboto-bold;
+    font-size: 20px;
+    border: none;
+}
+
+.profile_details .content-col-9 .aboutMeContent p {
+    font-family: Roboto-regular;
+    font-size: 15px;
+    color: #8d8d8d;
+    line-height: 2;
+}
+
+.profile_details .content-col-9 .aboutMeContent p + h4 {
+    padding: 40px 0 20px;
+    color: #263238;
+}
+
+.profile_details .content-col-9 .aboutMeContent .progress div {
+    margin-bottom: 20px;
+}
+
+.profile_details .content-col-9 .aboutMeContent .progress span {
+    font-family: Roboto-medium;
+    color: #40494d;
+    font-style: italic;
+}
+
+.profile_details .content-col-9 .aboutMeContent .progress span + span {
+    text-align: right;
+}
+
+.profile_details .content-col-9 .aboutMeContent .progress .titleSkills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_details #progressbar, #progressbar2, #progressbar3 {
+    background-color: #cbcbcb;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.profile_details #progressbar > div {
+    background-color: #9e9a9a;
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.profile_details #progressbar2 > div {
+    background-color:#9e9a9a;
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.profile_details #progressbar3 > div {
+    background-color: #9e9a9a;
+    width: 70%;
+    height: 20px;
+    border-radius: 5px;
+}
