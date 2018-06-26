@@ -133,6 +133,7 @@
 .product_details .product_author .author_content {
     display: flex;
     padding: 25px 0;
+    margin: 0 -15px;
 }
 
 .product_details .product_author .img_author {
@@ -372,6 +373,11 @@
 .product_details .product .col-md-4 .item {
     display: flex;
     margin-bottom: 25px;
+    border: 1px solid #d4d4d4;
+}
+
+.product_details .product .col-md-4 .item:hover {
+    cursor: pointer;
     box-shadow: 0 3px 10px grey;
 }
 
