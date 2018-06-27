@@ -115,6 +115,23 @@ header nav ul li a {
 header .searchKeywords {
     background: url("../images/banner_background.png");
     padding: 60px 0;
+    position: relative;
+}
+
+header .searchKeywords .toMain{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+}
+header .searchKeywords .toMain a{
+    font-size: 14px;
+    font-family: Roboto-regular;
+    color: #263238;
+
+}
+header .searchKeywords .toMain i{
+    margin-right: 5px;
 }
 
 header .searchKeywords h3 {
