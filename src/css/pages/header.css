@@ -118,19 +118,25 @@ header .searchKeywords {
     position: relative;
 }
 
-header .searchKeywords .toMain{
+header .searchKeywords .toMain {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 5px;
 }
-header .searchKeywords .toMain a{
+
+header .searchKeywords .toMain a {
+    font-size: 18px;
+    color: #263238;
+}
+
+header .searchKeywords .toMain a:hover:after {
+    content: attr(data-title);
     font-size: 14px;
     font-family: Roboto-regular;
-    color: #263238;
-
 }
-header .searchKeywords .toMain i{
+
+header .searchKeywords .toMain i {
     margin-right: 5px;
 }
 
@@ -171,16 +177,18 @@ header .fa-search {
 }
 
 /*Header for main*/
-header h2{
+header h2 {
     font-family: Roboto-regular;
     font-size: 48px;
     color: white;
     margin-bottom: 20px;
 }
-header .logout a.login{
+
+header .logout a.login {
     background-color: #8bc34a;
     margin: 0 10px;
 }
-header .col-md-8 .row{
+
+header .col-md-8 .row {
     justify-content: space-around;
 }
